@@ -26,12 +26,10 @@
 ---
 
 
-
 ## 📖 Table of Contents
 - [Overview](#-overview)
 - [Core Arsenal](#-core-arsenal)
 - [Installation & Deployment](#-installation--deployment)
-- [Legal Disclaimer](#-legal-disclaimer)
 
 ---
 
@@ -72,13 +70,24 @@ BLACK-GLASS is modular and packed with built-in functionalities designed for rap
 ## 🚀 Installation & Deployment
 
 Deploying BLACK-GLASS requires zero compilation. It is a single-file drop-in.
+> [!CAUTION]
+> ## ⚖️ STRICT LEGAL DISCLAIMER
+> **BLACK-GLASS is developed EXCLUSIVELY for authorized penetration testing, security assessments, and academic research.** 
+> 
+> You are strictly prohibited from deploying, installing, or utilizing this tool on any system, network, or infrastructure where you do not possess explicit, documented authorization from the owner. Engaging in unauthorized access is a severe criminal offense. 
+> 
+> By downloading or using this software, you agree that the author (Glass-Eye Team) assumes **zero liability** and is not responsible for any misuse, damage, data loss, or illicit activities facilitated by this tool. **Use at your own risk.**
 
-### 1. Secure the Payload
-Open `black-glass.php` and locate the configuration block at the top. Generate a SHA-256 hash of your desired password and replace the default hash.
+---
+
 > [!IMPORTANT]  
 > 🔑 **DEFAULT CREDENTIALS**  
 > **Password:** `admin123`  
 > *It is highly critical that you change the SHA-256 hash in the source code before deploying this to any live environment.*
+
+### 1. Secure the Payload (Mandatory)
+Open `black-glass.php` and locate the configuration block at the top. Generate a SHA-256 hash of your desired secure password and replace the default hash.
+
 ```php
 // ============================================================
 // PASSWORD PROTECTION — SHA-256 hashed
