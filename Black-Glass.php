@@ -1,7 +1,7 @@
 <?php
 /*
  * BLACK-GLASS v1.0 
- * Crafted by Ram
+ * Crafted by Glass-Eye Team
  * Authorized Penetration Testing Only
  * OS Compatible: Linux / Windows / macOS / BSD / Solaris
  */
@@ -405,7 +405,7 @@ if (!is_authenticated()) {
             <div class="login-info">⚡ Authorized Penetration Testing Only ⚡</div>
             <div class="typing-line">initializing secure shell<span class="caret">█</span></div>
             <div class="login-footer"><a href="https://github.com/ram-prasad-sahoo/BLACK-GLASS" target="_blank"
-                    style="color:#00ff41;text-decoration:none;">Crafted by <span>Ram</span></a>
+                    style="color:#00ff41;text-decoration:none;">Crafted by <span>Glass-Eye Team</span></a>
             </div>
         </div>
         <script>
@@ -2317,7 +2317,7 @@ if ($uid === 'N/A' || $gid === 'N/A') {
                         <?= htmlspecialchars($disk_total) ?> total</span></div>
                 <div class="l"><br></div>
                 <div class="l" style="color:#00ff41;">[+] Black-Glass Shell Ready — All OS Compatible</div>
-                <button onclick="window.open('https://github.com/ram-prasad-sahoo/BLACK-GLASS','_blank')" style="background:#0d1117;color:#00ff41;border:1px solid #00ff41;padding:5px 10px;">[+] Crafted by Ram ☠</button>
+                <button onclick="window.open('https://github.com/ram-prasad-sahoo/BLACK-GLASS','_blank')" style="background:#0d1117;color:#00ff41;border:1px solid #00ff41;padding:5px 10px;">[+] Crafted by Glass-Eye Team ☠</button>
                 <?php if ($cmd_result): ?>
                     <div class="l prompt"><span class="log">[☠]</span><span class="p"> <?= htmlspecialchars($cwd) ?>
                         </span>$ <?= htmlspecialchars($last_cmd) ?></div>
@@ -2347,12 +2347,7 @@ if ($uid === 'N/A' || $gid === 'N/A') {
                 </form>
                 <span id="notificationMessage"
                     style="font-size: 10px; flex: 1; text-align: center; display: inline-flex; align-items: center; justify-content: center; line-height: 1; height: 20px;"></span>
-                <div
-                    style="font-size: 11px; color: #2a6a2a; font-weight: 300; display: inline-flex; align-items: center; line-height: 1; height: 20px;">
-                    Crafted by <span
-                        style="color: #00ff41; text-decoration: none; font-weight: 500; margin-left: 4px; text-shadow: 0 0 5px rgba(0,255,65,0.3);">Ram</span>
-                    <span style="color:#0a3a0a;margin-left:8px;">| BG v1.0</span>
-                </div>
+                <div style="font-size:11px;color:#2a6a2a;font-weight:300;display:inline-flex;align-items:center;line-height:1;height:20px;">Crafted by <a href="https://github.com/ram-prasad-sahoo/BLACK-GLASS" target="_blank" style="color:#00ff41;text-decoration:none;font-weight:500;margin-left:4px;text-shadow:0 0 5px rgba(0,255,65,0.3);">Glass-Eye Team</a><span style="color:#0a3a0a;margin-left:8px;">| BG v1.0</span></div>
             </div>
         </div>
     </div>
